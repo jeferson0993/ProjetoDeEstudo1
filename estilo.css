@@ -4,7 +4,6 @@
 *	por Jeferson Ferreira da silva
 */
 
-
 /*RESET*/
 *{
 	margin: 0;
@@ -12,6 +11,7 @@
 	font-family: roboto, arial;
 	font-size: 100%;
 	text-decoration: none;
+	text-align: center;
 
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box; /*navegadores antigos*/
@@ -32,6 +32,13 @@
 .logo{
 	width: 200px;
 	height: 150px;
+	float: left;
+}
+/*CLEAR FIX*/
+.limpa{
+	clear: both;
+	overflow: hidden;
+	display: block;
 }
 /*MENU*/
 .menu{
@@ -62,6 +69,7 @@
 	min-height: 350px;
 	border: 5px solid #fff;
 	position: relative;
+	text-align: left;
 }
 .slideImagem{
 	position: absolute; /*Fica uma imagem em cima da outra*/
@@ -101,13 +109,11 @@
 .titulo{
 	text-transform: uppercase;
 	font-size: 1.3em;
-	text-align: center;
 }
 /*TITULO PRINCIPAL DESTAQUE*/
 .tituloDestaque{
 	font-size: 2em;
 	text-transform: uppercase;
-	text-align: center;
 	padding-bottom: 15px;
 	margin-bottom: 20px;
 	border-bottom: 3px dotted #FFA500;
@@ -159,25 +165,32 @@
 }
 /*COR DE BOTÃO*/
 .botaoAzul{
-	color: #6495ED;
-	border-color: #DD95ED;
+	background-color: #6495ED;
+	border-color: #6495ED;
 }
 .botaoAzul:hover{
 	color: #4169E1;
 }
 .botaoLaranja{
-	color: #FFA500;
-	border-color: #DDA500;
+	background-color: #FFA500;
+	border-color: #FFA500;
 }
 .botaoLaranja:hover{
 	color: #FF4500;
 }
 .botaoAmarelo{
-	color: #FFD700;
-	border-color: #DDD700;
+	background-color: #FFD700;
+	border-color: #FFD700;
 }
 .botaoAmarelo:hover{
 	color: #DAA520;
+}
+.botaoPreto{
+	background-color: #AAABBC;
+	border-color: #AAAAAA;
+}
+.botaoPreto:hover{
+	color: #A575BC;
 }
 /*COR DE TEXTO*/
 .textoLaranja{
@@ -198,6 +211,7 @@
 /*PARAGRAFOS*/
 p{
 	padding: 5px;
+	text-align: left;
 }
 /*TITULOS*/
 h1{
