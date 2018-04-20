@@ -97,6 +97,12 @@
 .slideImagem:nth-child(2){
 	animation-delay: 10s 
 }
+/*TITULOS*/
+.titulo{
+	text-transform: uppercase;
+	font-size: 1.3em;
+	text-align: center;
+}
 /*TITULO PRINCIPAL DESTAQUE*/
 .tituloDestaque{
 	font-size: 2em;
@@ -104,7 +110,29 @@
 	text-align: center;
 	padding-bottom: 15px;
 	margin-bottom: 20px;
-	border-bottom: 3px dotted blue;
+	border-bottom: 3px dotted #FFA500;
+}
+/*CAIXA*/
+.caixa{
+	float: left;
+	width: 100%
+	margin: 0.5%;
+}
+.caixa3{
+	width: 24%;
+}
+.caixa6{
+	width: 49%;
+}
+/*SOMRAS*/
+.sombra{
+    box-shadow: 2px 5px 10px #ccc;
+    -webkit-box-shadow: 2px 5px 10px #ccc;
+    -moz-box-shadow: 2px 5px 10px #ccc;
+    border: 1px solid #ddd	
+}
+.sombraTexto{
+	text-shadow: 1px 1px 2px #000000;
 }
 /*CORES*/
 .laranja{
@@ -114,6 +142,58 @@
 .preto{
 	background: #333;
 	color: #ccc;
+}
+/*BOTÃO*/
+.botao{
+	margin: 10px;
+	display: inline-block;
+	border: 1px solid;
+	color: #fff;
+	cursor: pointer;
+}
+.botaoMedio{
+	padding: 10px 30px;
+}
+.botaoGrande{
+	padding: 15px 50px;
+}
+/*COR DE BOTÃO*/
+.botaoAzul{
+	color: #6495ED;
+	border-color: #DD95ED;
+}
+.botaoAzul:hover{
+	color: #4169E1;
+}
+.botaoLaranja{
+	color: #FFA500;
+	border-color: #DDA500;
+}
+.botaoLaranja:hover{
+	color: #FF4500;
+}
+.botaoAmarelo{
+	color: #FFD700;
+	border-color: #DDD700;
+}
+.botaoAmarelo:hover{
+	color: #DAA520;
+}
+/*COR DE TEXTO*/
+.textoLaranja{
+	color: #FFA500;
+}
+.textoAzul{
+	color: #6495ED;
+}
+.textoAmarelo{
+	color: #FFD700;
+}
+/*BORDAS*/
+.bordas{
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
 }
 /*PARAGRAFOS*/
 p{
