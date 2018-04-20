@@ -1,3 +1,22 @@
+/*
+*	Projeto em HTML5 e CSS3 com sistema de controle de versão
+*	Web app responsivo
+*	por Jeferson Ferreira da silva
+*/
+
+
+/*RESET*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: roboto, arial;
+	font-size: 100%;
+	text-decoration: none;
+
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box; /*navegadores antigos*/
+	-moz-box-sizing: border-box;
+}
 /*CORPO*/
 .corpo{
 	width: 100%;
@@ -18,19 +37,65 @@
 .menu{
 	display: block;
 	float: right;
-	margin-top: 40px;
+	margin-top: 40px;	
 	background: #FF8C00;
-
+	/*border: solid;*/
 }
 .menu ul li{
 	font-weight: bold;
 	text-transform: capitalize;
 	display: inline-block;
 	padding: 20px;
-	border: solid;
+	/*border: solid;*/
 }
 .menu ul li:hover{
 	background: rgb(225,109,0);
+}
+.menu ul li a{
+	color: rgba(255,255,255,0.9);
+}
+.menu ul li a:hover{
+	color: #000000;
+}
+/*SLIDE DE IMAGENS*/
+.slide{
+	min-height: 350px;
+	border: 5px solid #fff;
+	position: relative;
+}
+.slideImagem{
+	position: absolute; /*Fica uma imagem em cima da outra*/
+	opacity: 0; /*nenhum imagem aparece*/
+	animation: animaSlide 15s infinite;
+
+	-webkit-animation: animaSlide 15s infinite; /*Para funcionar em navegadores mais antigos */
+}
+@keyframes animaSlide{
+	25%{
+		opacity: 1
+	}
+	75%{
+		opacity: 0
+	}
+}
+/*Para navegadores mais antigos */
+@-webkit-keyframes animaSlide{
+	25%{
+		opacity: 1
+	}
+	75%{
+		opacity: 0
+	}
+}
+/********************************/
+.slideImagem:nth-child(0){
+	animation-delay: 0s 
+}
+.slideImagem:nth-child(1){
+	animation-delay: 5s 
+}
+.slideImagem:nth-child(2){
+	animation-delay: 10s 
 }
 /*TITULO PRINCIPAL DESTAQUE*/
 .tituloDestaque{
@@ -46,11 +111,21 @@
 	background-color: #FFA500;
 	color: #FFFFFF;
 }
+.preto{
+	background: #333;
+	color: #ccc;
+}
 /*PARAGRAFOS*/
 p{
 	padding: 5px;
 }
 /*TITULOS*/
 h1{
+	padding: 5px;
+}
+img{
+	width: 100%;
+	height: 100%;
+	border: 0;
 	padding: 5px;
 }
