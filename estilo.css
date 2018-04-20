@@ -1,0 +1,56 @@
+/*CORPO*/
+.corpo{
+	width: 100%;
+}
+/*CONTEUDO*/
+.conteudo{
+	max-width: 1280px;
+	width: 80%;
+	margin: 0 auto;
+	padding: 5px;
+}
+/*LOGO*/
+.logo{
+	width: 200px;
+	height: 150px;
+}
+/*MENU*/
+.menu{
+	display: block;
+	float: right;
+	margin-top: 40px;
+	background: #FF8C00;
+
+}
+.menu ul li{
+	font-weight: bold;
+	text-transform: capitalize;
+	display: inline-block;
+	padding: 20px;
+	border: solid;
+}
+.menu ul li:hover{
+	background: rgb(225,109,0);
+}
+/*TITULO PRINCIPAL DESTAQUE*/
+.tituloDestaque{
+	font-size: 2em;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	border-bottom: 3px dotted blue;
+}
+/*CORES*/
+.laranja{
+	background-color: #FFA500;
+	color: #FFFFFF;
+}
+/*PARAGRAFOS*/
+p{
+	padding: 5px;
+}
+/*TITULOS*/
+h1{
+	padding: 5px;
+}
