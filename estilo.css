@@ -44,7 +44,7 @@
 .menu{
 	display: block;
 	float: right;
-	margin-top: 40px;	
+	margin-top: 40px;
 	background: #FF8C00;
 	/*border: solid;*/
 }
@@ -97,13 +97,13 @@
 }
 /********************************/
 .slideImagem:nth-child(0){
-	animation-delay: 0s 
+	animation-delay: 0s
 }
 .slideImagem:nth-child(1){
-	animation-delay: 5s 
+	animation-delay: 5s
 }
 .slideImagem:nth-child(2){
-	animation-delay: 10s 
+	animation-delay: 10s
 }
 /*TITULOS*/
 .titulo{
@@ -135,7 +135,7 @@
     box-shadow: 2px 5px 10px #ccc;
     -webkit-box-shadow: 2px 5px 10px #ccc;
     -moz-box-shadow: 2px 5px 10px #ccc;
-    border: 1px solid #ddd	
+    border: 1px solid #ddd
 }
 .sombraTexto{
 	text-shadow: 1px 1px 2px #000000;
@@ -234,4 +234,17 @@ video, iframe{
 	min-height: 180px;
 	background: #000;
 	border: 2px solid #111;
+}
+/*AUDIOS*/
+.audios li{
+	list-style: none;
+}
+.audios p{
+	text-transform: capitalize;
+	color: #f00;
+}
+audio{
+	width: 85%;
+	margin: 5px;
+	max-height: 35px;
 }
