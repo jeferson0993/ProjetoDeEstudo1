@@ -248,3 +248,23 @@ audio{
 	margin: 5px;
 	max-height: 35px;
 }
+/*ENDEREÇO*/
+.endereco li, address{
+	line-height: 50px;
+	font-style: italic;
+	border-bottom: 1px #eee solid;
+	list-style: none;
+	text-align: center;
+}
+.endereco img{
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+}
+.endereco a{
+	color: #444;
+}
+.endereco a:hover{
+	color: #ccc;
+}
