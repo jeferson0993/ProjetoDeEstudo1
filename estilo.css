@@ -141,16 +141,22 @@
 	text-shadow: 1px 1px 2px #000000;
 }
 /*CORES*/
+/*.fundoTopo{
+	background-image: url(imagens/wolverine.png);
+	background-size: 15%;
+	background-repeat: no-repeat;
+	background-position: top right;
+}*/
 .laranja{
 	background-color: #FFA500;
 	color: #FFFFFF;
 }
 .preto{
-	background: #333;
+	background-color: #333;
 	color: #ccc;
 }
 .cinza{
-	background: #f2f1ec;
+	background-color: #f2f1ec;
 	color: #555;
 }
 /*BOTÃO*/
@@ -296,4 +302,58 @@ footer img{
 }
 .social li a{
 	padding: 10px;
+}
+
+/*RESPONSIVIDADE*/
+@media screen and (max-width: 960px) {
+	.conteudo{
+		width: 95%;
+	}
+	.menu li{
+		padding: 15px;
+	}
+	.caixa3{
+		width: 48%;
+		min-height: 370px;
+	}
+}
+@media screen and (max-width: 680px) {
+	.logo{
+		float: none;
+	}
+	.menu{
+		width: 100%;
+	}
+	.slide{
+		height: 280px;
+	}
+}
+@media screen and (max-width: 480px){
+	.conteudo{
+		width: 100%;
+	}
+	.caixa3{
+		width: 100%;
+	}
+	.caixa6{
+		width: 100%;
+	}
+	.logo{
+		width: 80%;
+		height: 80%;
+		margin-left: 0;
+	}
+	.menu li{
+		width: 100%;
+		border-bottom: 1px solid #ccc;
+	}
+	.slide{
+		height: 200px;
+	}
+	form{
+		width: 95%;
+	}
+	tituloDestaque{
+		font-size: 1em;
+	}
 }
