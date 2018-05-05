@@ -75,8 +75,6 @@
 	position: absolute; /*Fica uma imagem em cima da outra*/
 	opacity: 0; /*nenhum imagem aparece*/
 	animation: animaSlide 15s infinite;
-
-	-webkit-animation: animaSlide 15s infinite; /*Para funcionar em navegadores mais antigos */
 }
 @keyframes animaSlide{
 	25%{
@@ -86,16 +84,6 @@
 		opacity: 0
 	}
 }
-/*Para navegadores mais antigos */
-@-webkit-keyframes animaSlide{
-	25%{
-		opacity: 1
-	}
-	75%{
-		opacity: 0
-	}
-}
-/********************************/
 .slideImagem:nth-child(0){
 	animation-delay: 0s
 }
@@ -255,7 +243,7 @@ audio{
 	max-height: 35px;
 }
 /*ENDEREÇO*/
-.endereco li, address{
+.endereco li, address, ul li p{
 	line-height: 50px;
 	font-style: italic;
 	border-bottom: 1px #eee solid;
