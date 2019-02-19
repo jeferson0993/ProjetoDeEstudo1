@@ -45,25 +45,26 @@
 	display: block;
 	float: right;
 	margin-top: 40px;
-	background: #FF8C00;
-	/*border: solid;*/
+	background: #000000;
 }
 .menu ul li{
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
 	font-weight: bold;
 	text-transform: capitalize;
 	display: inline-block;
 	padding: 20px;
-	/*border: solid;*/
-}
-.menu ul li:hover{
-	background: rgb(225,109,0);
 }
 .menu ul li a{
-	color: rgba(255,255,255,0.9);
+	color: #FFFFFF;	
 }
-.menu ul li a:hover{
-	color: #000000;
+.menu ul li:hover, 
+.menu ul li:hover > a{	
+	background: #FFFFFF;		
+	color: #2F538C;
 }
+
 /*SLIDE DE IMAGENS*/
 .slide{
 	min-height: 350px;
@@ -109,7 +110,7 @@
 /*CAIXA*/
 .caixa{
 	float: left;
-	width: 100%
+	width: 100%;
 	margin: 0.5%;
 }
 .caixa3{
@@ -129,14 +130,8 @@
 	text-shadow: 1px 1px 2px #000000;
 }
 /*CORES*/
-/*.fundoTopo{
-	background-image: url(imagens/wolverine.png);
-	background-size: 15%;
-	background-repeat: no-repeat;
-	background-position: top right;
-}*/
 .laranja{
-	background-color: #FFA500;
+	background-color: #6495ED;
 	color: #FFFFFF;
 }
 .preto{
@@ -270,6 +265,14 @@ input[type="text"], input[type="email"], textarea{
 	border: 1px solid #ddd;
 	margin: 1%;
 	text-align: left;
+}
+.voltarAoTopo a{
+	float: right;
+}
+.voltarAoTopo a img{	
+	width: 40px;
+	height: 40px;
+	margin: 5px;
 }
 /*FOOTER*/
 footer p{
