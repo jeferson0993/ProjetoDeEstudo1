@@ -18,7 +18,7 @@ Meu primeiro projeto em HTML5 e CSS3 para prática e estudo com sistema de contr
 
 ### Licença
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
 
 Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.md] (LICENSE.md) para obter detalhes
 
