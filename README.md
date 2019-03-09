@@ -3,7 +3,7 @@
 Meu primeiro projeto em HTML5 e CSS3 para prática e estudo com sistema de controle de versão
 
 ---
-## [Clique aqui para ver este projeto na Internet](https://jeferson0993.github.io/ProjetoDeEstudo1/)
+## [Clique aqui para ver este projeto na Internet](https://jeferson0993.github.io/Projeto-Single-page-com-HTML5-e-CSS3/)
 ---
 
 ### Autor
